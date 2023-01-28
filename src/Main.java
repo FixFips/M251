@@ -16,18 +16,18 @@ public class Main {
 
         if (sum < 100) {
             if (sum >= 90) {
-                System.out.print("Grade = A ");
-            } else if (sum < 90 && sum >= 80) {
-                System.out.print("Grade = B ");
-            } else if (sum < 80 && sum >= 70) {
-                System.out.print("Grade = C ");
-            } else if (sum < 70 && sum >= 60) {
-                System.out.print("Grade = D ");
+                System.out.printf("Grade = A %.0f/100" ,sum);
+            } else if (sum >= 80) {
+                System.out.printf("Grade = B %.0f/100", sum);
+            } else if (sum >= 70) {
+                System.out.printf("Grade = C %.0f/100", sum);
+            } else if (sum >= 60) {
+                System.out.printf("Grade = D %.0f/100", sum);
             } else {
-                System.out.print("Grade = F ");
+                System.out.printf("Grade = F %.0f/100", sum);
             }
         } else {
-            System.out.println("The Sum Grade is more than 100");
+            System.out.println("The Sum Grade is more than 100" + sum);
         }
 
 
