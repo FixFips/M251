@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+// Q1
         System.out.print("Type the Student TMA score: ");
         double TMA = input.nextDouble();
 
