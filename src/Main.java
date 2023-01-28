@@ -14,17 +14,22 @@ public class Main {
 
         double sum = TMA + MTA + finalExam;
 
-        if (sum >= 90) {
-            System.out.print("Grade = A ");
-        } else if (sum < 90 && sum >= 80) {
-            System.out.print("Grade = B ");
-        } else if (sum < 80 && sum >= 70) {
-            System.out.print("Grade = C ");
-        } else if (sum < 70 && sum >= 60) {
-            System.out.print("Grade = D ");
+        if (sum < 100) {
+            if (sum >= 90) {
+                System.out.print("Grade = A ");
+            } else if (sum < 90 && sum >= 80) {
+                System.out.print("Grade = B ");
+            } else if (sum < 80 && sum >= 70) {
+                System.out.print("Grade = C ");
+            } else if (sum < 70 && sum >= 60) {
+                System.out.print("Grade = D ");
+            } else {
+                System.out.print("Grade = F ");
+            }
         } else {
-            System.out.print("Grade = F ");
+            System.out.println("The Sum Grade is more than 100");
         }
+
 
 
     }
