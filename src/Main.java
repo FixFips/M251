@@ -29,5 +29,6 @@ public class Main {
         } else {
             System.out.println("The Sum Grade is more than 100" + sum);
         }
+
     }
 }
