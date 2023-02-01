@@ -30,7 +30,5 @@ public class Main {
             System.out.println("The Sum Grade is more than 100" + sum);
         }
 
-
-
     }
 }
